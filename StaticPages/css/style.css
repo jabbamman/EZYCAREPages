@@ -1,0 +1,341 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: sans-serif;
+}
+
+
+
+#nav-bar
+{
+position: sticky;
+top:0;
+z-index: 10px;
+}
+
+.navbar
+{
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    padding=0!important; 
+}
+
+.navbar-brand img 
+{
+    padding-left: 20px; 
+    height: 35;
+}
+
+.navbar li
+{
+    padding: 0px 10px;
+}
+
+.navbar li a 
+{
+   color: #fff !important;
+    font-weight: 600;
+    font-size: 13;
+    float: right;
+    text-align: left;
+}
+. fa-bars
+{
+    font:#fff;
+    font-size: 30px;
+}
+
+.navbar-toggler
+{
+    outline: none !importtant;
+}
+
+.loginicon
+{
+    border: 1px solid;
+    
+}
+
+
+/*--------------------------- Banner Section -----------------------*/
+
+#banner 
+{
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    color:#fff;
+    padding-top: 5%;
+    
+}
+
+#banner btn 
+{
+    vertical-align: middle;
+}
+.promo-title
+{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+    text-transform: uppercase;
+}
+
+.btn-light
+{
+    color: black!important;
+    margin: 20px;
+    border-radius: 20px!important;
+    margin-left: auto;
+    margin-right: auto;
+    float: right;
+}
+
+.bottom-img
+{
+    width: 100%;
+}
+
+#wave {
+  position: absolute;
+  height: 70px;
+  width: 600px;
+  background: #e0efe3;
+}
+
+.pspacing
+{
+  line-height: 34px;   /* within paragraph */
+  margin-bottom: 30px; /* between paragraphs */
+}
+
+
+/*--------------------------- Professionals Section -----------------------*/
+
+#professionals
+{
+    padding:50px 0;
+}
+
+.professionalsimg
+{
+    width: 100px;
+    margin-top: 20px;
+    
+}
+
+.professionals
+{
+    padding: 20px;
+}
+
+
+.professionals h4
+{
+    padding: 5px; 
+    margin-top: 25px; 
+    text-transform: uppercase;
+}
+
+.title::before
+{
+    content: '';
+    background: #7b1798;
+    height: 5px;
+    width: 200px; 
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    transform:translateY(63px);
+}
+.title::after
+{
+    content: '';
+    background: #7b1798;
+    height: 10px;
+    width: 50px; 
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform:translateY(8px);
+}
+
+#professionals .btn-primary
+{
+    box-shadow: none;
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    padding:8px 25px;
+    border-radius: 20px!important;
+    border:none;
+    margin: 20px;
+}
+
+/*--------------------------- About Us -----------------------*/
+#About-us
+{
+    background-color: #f8f9fa;
+    padding-bottom: 50px; 
+    padding-top:50px;
+    
+}
+
+.About-title
+{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top:8%;
+}
+#About-us ul li 
+
+{
+    margin: 10px 0;
+    text-align: justify;
+    
+}
+
+#About-us ul
+
+{
+    margin-left: 20px;
+    
+}
+.AboutUsText
+{
+    text-align: justify;
+    margin-left: 20px;
+}
+
+#About-us img
+{
+    width: 400px;
+    margin-top: 20px; 
+    display: block;
+}
+
+/*--------------------------- Group Members -----------------------*/
+#GroupMembers
+{
+    margin-top: 50px; 
+    margin-bottom: 50px;
+}
+
+
+.GroupMembers
+{
+    border-left: 4px solid #7b1798;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.GroupMembers img 
+{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+.user-details
+{
+    display: inline-block;
+    font-size: 12px;
+}
+
+.GroupMembers p
+{
+   text-align: justify;
+}
+
+.GroupMembers h1
+{
+   text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+/*--------------------------- SOCIAL MEDIA -----------------------*/
+#SocialMedia
+{
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+
+#SocialMedia p 
+{
+    font-size: 36px; 
+    font-weight: 600px; 
+    margin-bottom: 20px;
+}
+
+.socialMediaIcons img
+{
+    width: 60px;
+    transition: 0.5s;
+}
+
+.socialMediaIcons a:hover img
+{
+
+    transform: translateY(-10px);
+}
+
+/*--------------------------- FOOTER -----------------------*/
+#footer
+{
+   background-image: linear-gradient(to right, #a517ba, #5f1782);
+   color: #fff;
+}
+.footer-box
+{
+    padding: 20px;
+}
+
+.footer-box img
+{
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+.footer-box .fa 
+{
+    margin-right: 8px; 
+    font-size: 25px; 
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top:7px;
+    border-radius: 2px;
+    background-image: linear-gradient(to right, #a517ba, #5f1782) 
+}
+
+.footer-box .form-control
+{
+    box-shadow: none!important;
+    border:none;
+    border-radius: 1px;
+    margin-top: 25px;
+    max-width: 250px;
+}
+
+.footer-box .btn-primary
+{
+    box-shadow: none!important;
+    border:none;
+    border-radius: 1px;
+    margin-top: 30px;
+    background-image: linear-gradient(to right, #a517ba, #5f1782) 
+}
+
+hr
+{
+    background-color: #fff;
+}
+.copyright 
+{
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
